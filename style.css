@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f1e8;
+  color: #2b1b12;
+}
+
+/* HERO */
+.hero {
+  background: #3b2a1f;
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+/* SEÇÕES */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+/* CULTIVANDO */
+.cultivando {
+  background: #ffffff;
+}
+
+/* RESPONSABILIDADE */
+.responsabilidade {
+  background: #e7efe0;
+}
+
+/* INOVAÇÃO */
+.inovacao {
+  background: #b8c94a;
+}
+
+.circular {
+  background: #ffffff;
+}
+
+/* GRID CARDS */
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* CONTATO */
+.contato {
+  background: #3c6b3c;
+  color: white;
+}
+
+.contato-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 260px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background: #2b1b12;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+  background: #2b1b12;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
